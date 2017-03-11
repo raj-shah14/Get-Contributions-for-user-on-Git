@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import urllib2
 
-username="GrahamCampbell"
+username="GrahamCampbell"  #Give any username here
 contents=urllib2.urlopen("https://github.com/users/"+username+"/contributions").read()
 #print contents
 contri=[]
